@@ -1,0 +1,36 @@
+.venue-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.venue {
+    width: 30%;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.venue img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.venue h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.venue p {
+    margin: 5px 0;
+}
+
+.venue p:last-of-type {
+    font-style: italic;
+    color: #666;
+}
